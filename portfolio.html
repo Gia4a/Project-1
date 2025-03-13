@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gia-An Luu</title>
+    <link rel="stylesheet" href="switch.css">
+</head>
+<body>
+    <h1>
+        <video class="video-background" autoplay muted loop>
+            <source src="VID_20171108_055140.mp4" type="video/mp4">
+    </h1>
 
+        <div class="myself">With 10 plus years in various management position
+            within the Hospitality Industry, I have developed
+            a strong sense of leadership and communication also
+            a excellent problem solving skills, theorycrafting
+            ability through data analysis, tenative planning and 
+            observation.
+
+        </div>
+<div class="content" id="content">Gia-An Luu</div>
+
+        <script>
+            let text= ["Gia-an Luu", "Gee", "Email:", "Giaanluu@gmail.com"];
+            let index = 0;
+
+            function changeText() {
+                index = (index + 1) % text.length;
+                document.getElementById("content").innerHTML = text[index];
+            }
+
+            setInterval(changeText, 2000);
+        </script>
+
+        <div class = "slideshow">
+            <img src="decepticon.png" alt="Image 1">
+            <img src="Kurita_logo.png" alt="image 2">
+            <img src="horde.png" alt="image 3">
+            <img src="ROG logo_red.png" alt="image 4">
+            
+            </div>
+
+            <div class="footer">
+                <a href="mailto:giaanluu@gmail.com" class="email-link">
+                    Contact Me
+                    <span class="email-popup">giaanluu@gmail.com</span>
+                </a>
+                <a>
+    
